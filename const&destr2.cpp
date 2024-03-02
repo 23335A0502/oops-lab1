@@ -22,7 +22,7 @@ class Student1{
 };
 int main(){
     Student1 obj;
-    Student1 obj1=Student1(ravali",75);
+    Student1 obj1=Student1("ravali",70);
     Student1 obj2=Student1(“geetha",70);
 }
 
