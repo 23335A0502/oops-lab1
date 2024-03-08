@@ -8,9 +8,9 @@ class College{
     public:
 
         void display(string classified){
-            cout<<classified<<" of collage :"<<collegeName<<endl;
+            cout<<classified<<" of college :"<<collegeName<<endl;
             cout<<"College Code :"<<collegeCode<<endl;
-            cout<<"Address of the collage :"<<address<<endl;
+            cout<<"Address of the college :"<<address<<endl;
         }
         string getValue(){
             return getv();
@@ -28,7 +28,7 @@ class Staff:public College{
           Staff(){  
             string classified="Staff";
             display(classified);
-            cout<<"Staff can access passwords of the collage"<<endl;
+            cout<<"Staff can access passwords of the college"<<endl;
              temp2=address;
              temp=getValue();
           }
