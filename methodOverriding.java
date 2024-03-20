@@ -6,12 +6,12 @@ class A{
 class MethodOr extends  A{
 
     void display(String a){
-        System.out.println(a+" BYE ");
+        System.out.println(a+" hi ");
     }
     public static void main(String args[]){
         MethodOr obj=new MethodOr();
-        obj.display("mummy");
-        obj.display("daddy");
+        obj.display("mom");
+        obj.display("dad");
      
     }
 }
