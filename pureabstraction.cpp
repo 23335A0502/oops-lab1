@@ -29,7 +29,7 @@ public:
 
 int main() {
     
-    Graduate undergrad("John Doe", 20, 3.5);
+    Graduate undergrad("Wilson David", 20, 4.5);
     Student* student = &undergrad;
     student->displayInfo();
 
